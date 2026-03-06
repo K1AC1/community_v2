@@ -1,0 +1,7 @@
+# FastAPI REST Server
+fastapi>=0.115.0,<0.116
+uvicorn[standard]>=0.32.0,<0.33
+pydantic>=2.0,<3
+
+# Optional: validation, env
+python-dotenv>=1.0.0

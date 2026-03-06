@@ -1,0 +1,89 @@
+.page {
+  width: 100%;
+}
+
+.article {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.head {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.title {
+  margin: 0 0 12px 0;
+  font-size: 1.375rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.noticeBadge {
+  display: inline-block;
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  background: var(--color-notice);
+  color: #1a1a1a;
+  border-radius: 4px;
+}
+
+.meta {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+}
+
+.content {
+  font-size: 1rem;
+  line-height: 1.7;
+  white-space: pre-wrap;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+}
+
+.backBtn,
+.editBtn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 0.9375rem;
+  font-weight: 500;
+}
+
+.backBtn {
+  background: var(--color-border);
+  color: var(--color-text);
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.backBtn:hover {
+  background: #3d4d66;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.editBtn {
+  background: var(--color-accent);
+  color: #fff;
+  border: none;
+}
+
+.editBtn:hover {
+  background: var(--color-accent-hover);
+}
+
+.error {
+  color: var(--color-text-muted);
+  margin-bottom: 16px;
+}
